@@ -15,3 +15,7 @@ Insights and Findings
 - Difference in bike rental patterns between member riders and casual riders during weekdays and weekends: Member riders dominate bike rentals during weekdays, with a gradual decrease in trips after Tuesday, reaching the lowest point on Sundays. Casual riders have relatively low usage during weekdays, but their trips significantly increase over the weekend. In conclusion, member riders tend to rent bikes on weekdays, while casual riders prefer weekends.
 
 - Weather condition with the highest number of bicycle users: Clear weather is the condition with the highest number of bicycle users, showing that good weather positively influences the number of bike rentals.
+
+  Dashboard
+
+  ![BikeSharing Dashboard](image/dashboard.png)
