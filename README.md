@@ -1,12 +1,15 @@
 # Project Bike Sharing Analysis and Dashboard
 
-Defining Question
+Welcome to my project! This is a Streamlit dashboard that visualizes bike sharing data.
+Bike-sharing systems are modernized bike rental services where the entire process, including membership, rental, and return, is automated. Users can conveniently rent bikes from one location and return them to another. With over 500 programs and 500,000 bicycles globally, these systems are gaining significant attention for their positive impact on traffic management, environmental sustainability, and public health.
+
+## Defining Question
 - What has been the trend in the number of bicycle users in 2012?
 - Which season has the highest total trips for both casual and registered riders?
 - What is the difference in bike rental patterns between member riders and casual riders during weekdays and weekends?
 - What weather condition has the highest number of bicycle users according to the rental pattern?
 
-Insights and Findings
+## Insights and Findings
 
 - Trend in the number of bicycle users in 2012: The number of bicycle users in 2012 showed fluctuations throughout the year, with clear seasonal trends. The peak months generally occurred in warmer seasons like spring and summer, while the number of rentals decreased during the colder months.
 
@@ -16,6 +19,26 @@ Insights and Findings
 
 - Weather condition with the highest number of bicycle users: Clear weather is the condition with the highest number of bicycle users, showing that good weather positively influences the number of bike rentals.
 
-  Dashboard
+ ## Dashboard
 
-  ![BikeSharing Dashboard](image/dashboard.png)
+  ![BikeSharing Dashboard](image/dashboard.jpg)
+
+
+  
+## How to Run the Dashboard Locally
+
+Follow the steps below to run the dashboard on your local machine.
+
+### 1. Install Dependencies
+
+To install all the required libraries, open your terminal/command prompt/conda prompt, navigate to this project folder, and run the following command:
+
+```bash
+pip install -r requirements.txt
+```
+### 2. Run Dashboard
+
+```bash
+cd dashboard
+streamlit run dashboard.py
+```
